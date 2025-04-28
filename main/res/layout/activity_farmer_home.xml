@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wheat"
+    tools:context=".FarmerHome">
+
+    <Button
+        android:id="@+id/addProducts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Products"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:id="@+id/delProducts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Delete Products"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/viewOrders"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="view Orders"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+    <Button
+        android:id="@+id/viewMultiO"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="view BulkOrders"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+    <Button
+        android:id="@+id/flogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="logout"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+</LinearLayout>

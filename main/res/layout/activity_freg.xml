@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/farmer"
+    tools:context=".FReg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/red"
+        android:textSize="35dp"
+        android:text="Former register Here"></TextView>
+
+    <EditText
+        android:id="@+id/fName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:background="@color/white"
+        android:inputType="text"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/loginEmailR"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:background="@color/white"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email" />
+
+    <EditText
+        android:id="@+id/loginpassR"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/loginCpassR"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Conform Password"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/loginCellR"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Phone"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/regBtnR"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="sign up" />
+</LinearLayout>
